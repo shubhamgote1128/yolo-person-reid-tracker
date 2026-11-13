@@ -1,0 +1,55 @@
+﻿# Python virtual environments
+.venv/
+venv/
+env/
+
+# Personal photos and biometric enrollment data
+known_people/
+
+# Model weights
+Models/
+*.pt
+*.pth
+*.onnx
+
+# Generated videos, logs and output
+output/
+outputs/
+results/
+*.mp4
+*.avi
+*.mov
+*.log
+
+# Databases and generated embeddings
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+!**/.env.example
+app/ca.pem
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Internal development notes and prompts
+V06_1_face_person_ambiguity_hardening_prompt.txt
+reid_v04_identity_hardening_agent_prompt.txt
+project_modificaton.txt
